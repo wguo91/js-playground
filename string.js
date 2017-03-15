@@ -124,13 +124,6 @@ function isRotated(str1, str2) {
  */
 function filterString(str) {
   var res = "";
-  // str = str.split("").filter(function(ele) {
-  //   charCode = ele.charCodeAt(0);
-  //   if(charCode >= 65 && charCode <= 90) return true;
-  //   return false;
-  // }).sort().join("");
-  // return str;
-
   for(let i = 0; i < str.length; i++) {
     let c = str.charCodeAt(i);
     if(c >= 65 && c <= 90) res += str.charAt(i);

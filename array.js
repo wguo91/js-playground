@@ -38,35 +38,6 @@ function removeDuplicates(arr) {
   }
   return newArray;
 }
-function testPartOne() {
-  console.log("========= testPartOne() START =========");
-
-  console.log("=== removeDuplicates() ===");
-  var strs = ["Hello", "my", "name", "is", "Wilson", "and", "his", "name",
-    "is", "Jackson"];
-  console.log("Removing duplicates for the following array: [" + strs + "]");
-  console.log("CORRECT: [Hello,my,name,is,Wilson,and,his,Jackson]");
-  console.log("ACTUAL: [" + removeDuplicates(strs) + "]");
-
-  console.log("=== gcd() ===");
-  var a = [12, 19, 258, 948, 1063];
-  var b = [39, 69, 345, 321, 2599];
-  console.log("gcd of " + a[0] + " and " + b[0] + " is " + gcd(a[0], b[0]));
-  console.log("Correct value is 3");
-
-  console.log("gcd of " + a[1] + " and " + b[1] + " is " + gcd(a[1], b[1]));
-  console.log("Correct value is 1");
-
-  console.log("gcd of " + a[2] + " and " + b[2] + " is " + gcd(a[2], b[2]));
-  console.log("Correct value is 3");
-
-  console.log("gcd of " + a[3] + " and " + b[3] + " is " + gcd(a[3], b[3]));
-  console.log("Correct value is 3");
-
-  console.log("gcd of " + a[4] + " and " + b[4] + " is " + gcd(a[4], b[4]));
-  console.log("Correct value is 1:");
-}
-
 /**
  * rotate an array in linear time and without using extra storage space
  * naive approach: rotate the array's elements one by one O(n*d)
