@@ -85,5 +85,5 @@ A collection of JavaScript interview questions I practice with.
 14) find longest palindromic substring using Manacher's algorithm
 15) word break
 
-**weather.js**
+**weather.js** 
 simple ajax call to grab weather data from a JSON endpoint
