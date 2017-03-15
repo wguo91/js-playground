@@ -1,0 +1,122 @@
+{
+  "nav": {
+    "ul": {
+      "li": [{
+          "innerText": "App Name"
+        },
+        {
+          "a": {
+            "href": "#home",
+            "innerText": "Home"
+          }
+        },
+        {
+          "a": {
+            "href": "#about",
+            "innerText": "About"
+          }
+        },
+        {
+          "a": {
+            "href": "#links",
+            "innerText": "Links"
+          }
+        }
+      ]
+    }
+  },
+  "main": {
+    "className": "main-container",
+    "h1": {
+      "innerText": "Welcome to my homepage"
+    },
+    "p": {
+      "innerText": "I hope you enjoy your stay"
+    },
+    "div_1": {
+      "className": "list",
+      "p": {
+        "innerText": "I need the following items"
+      },
+      "ul": {
+        "li": [{
+          "innerText": "A standing desk"
+        },
+        {
+          "innerText": "A new laptop"
+        },
+        {
+          "innerText": "Potato chips"
+        }]
+      },
+      "div_2": {
+        "className": "data-table",
+        "p": {
+          "innerText": "I love data:"
+        },
+        "table": {
+          "tr": [{
+            "th": [{
+              "innerText": "Section 1"
+            },
+            {
+              "innerText": "Section 2"
+            },
+            {
+              "innerText": "Section 3"
+            }]
+          },
+          {
+            "td_1": [{
+              "innerText": "Data 1"
+            },
+            {
+              "innerText": "Data 2"
+            },
+            {
+              "innerText": "Data 3"
+            }]
+          },
+          {
+            "td_2": [{
+              "innerText": "Data 4"
+            },
+            {
+              "innerText": "Data 5"
+            },
+            {
+              "innerText": "Data 6"
+            }]
+          }]
+        }
+      },
+      "div_3": {
+        "className": "signup",
+        "form": {
+          "method": "POST",
+          "action": "/",
+          "div_1": {
+            "input": {
+              "type": "text",
+              "className": "field",
+              "name": "name",
+              "placeholder": "Full Name"
+            }
+          },
+          "div_2": {
+            "input": {
+              "type": "submit",
+              "className": "btn",
+              "value": "Submit"
+            }
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "p": {
+      "innerText": "2017 Wilson Guo"
+    }
+  }
+}

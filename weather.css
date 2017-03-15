@@ -1,0 +1,44 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+header {
+  top: 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #cecece;
+  width: 100%;
+  text-align: center;
+}
+header h1 {
+  font-weight: normal;
+}
+ul,
+li {
+  list-style: none;
+}
+li h2 {
+  color: #007ee5;
+  font-size: 24px;
+  font-weight: 200;
+}
+li div p:first-child {
+  font-size: 36px;
+}
+.weather-cards li {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #cecece;
+  text-align: center;
+  display: inline-block;
+  margin: 50px 20px;
+  border-radius: 4px;
+}
+li div p:last-child {
+  font-size: 18px;
+  margin: 10px 0;
+}
+li div .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
