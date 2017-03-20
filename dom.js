@@ -12,7 +12,6 @@ function fn(numbers) {
     })(i);
   }
 }
-
 /**
  * attach an event listener to a list of items, refer to event-delegation.html
  * however, if we have a huge list of over 100 items, we must consider
@@ -29,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     console.timeEnd("Not using event delegation");
   }
-
   // as an alternative, we can add an event listener to ul instead
   var lotsOfItems = document.getElementById("long-todo-list");
   if(lotsOfItems) {
@@ -49,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function() {
    * Not using event delegation: 0.580ms
    * Using event delegation: 0.103ms
    */
-
    /**
     * implement SIMPLE debounce and throttle functions
     * the debounced function is only called after x amount of ms has passed

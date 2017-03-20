@@ -1,25 +1,25 @@
 # js-playground
 js playground
 
-A collection of JavaScript interview questions I practice with. 
+A collection of JavaScript interview questions I practice with.
 
 **array.js**
 1) flatten an array
 2) swap two elements in an array
 3) reverse an array (in-place)
-4) remove duplicates 
-5) rotate an array (using the juggling algorithm) 
+4) remove duplicates
+5) rotate an array (using the juggling algorithm)
 
 **bst.js**
 1) implement a bst (remove method not implemented)
 2) depth first search: inorder, preorder, and postorder traversals (all iterative)
 3) breadth first search
-4) determine if array of numbers is a valid inorder (Morris traversal), preorder, or postorder sequence 
+4) determine if array of numbers is a valid inorder (Morris traversal), preorder, or postorder sequence
 5) find kth smallest element
 
 **dom-traversal.js**
 1) depth first search on all DOM elements, provide option to filter by class
-2) find all images on the DOM, including background images, and display URLs 
+2) find all images on the DOM, including background images, and display URLs
 3) create a color picker for a DOM element
 
 **dom.js**
@@ -31,13 +31,17 @@ A collection of JavaScript interview questions I practice with.
 6) document fragment vs not using document fragment runtime comparison
 7) JSONP request
 
+**dropbox.js**
+1) return the number of hits to a web server in the last five minutes
+2) print all possible letter combinations from a given phone number
+
 **linked-list.js**
 1) ipmplement a linked list
 2) reverse a linked list
 
 **number.js**
 1) is a number prime
-2) get all prime factors of a number 
+2) get all prime factors of a number
 3) list all prime numbers up to a certain number
 4) return the nth fibonacci number using memoization
 5) merge two sorted arrays
@@ -64,7 +68,7 @@ A collection of JavaScript interview questions I practice with.
 **stack.js**
 1) implement a stack
 2) check if parentheses in a string are balanced
-3) find the length of the longest valid parenthesis substring 
+3) find the length of the longest valid parenthesis substring
 4) sort a stack using recursion, largest element at the bottom of the stack
 5) find the next greater element for each element in an array
 
@@ -85,5 +89,5 @@ A collection of JavaScript interview questions I practice with.
 14) find longest palindromic substring using Manacher's algorithm
 15) word break
 
-**weather.js** 
+**weather.js**
 simple ajax call to grab weather data from a JSON endpoint
